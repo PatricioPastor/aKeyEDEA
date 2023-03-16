@@ -30,7 +30,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin:0 100px ;
+    margin:30px 100px ;
     transition: 0.5s;
 }
 
@@ -38,3 +38,16 @@ a:hover {
     transform: scale(1.1);
     filter: drop-shadow(0 0 36px rgb(255, 255, 255));
 }
+
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    img {
+        width: 80px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+  }
