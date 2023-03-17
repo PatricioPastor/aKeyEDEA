@@ -36,7 +36,7 @@ a {
 
 a:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 36px rgb(255, 255, 255));
+    filter: drop-shadow(0 0 36px rgba(255, 208, 98, 0.455));
 }
 
 @media (max-width: 768px) {
@@ -50,4 +50,10 @@ a:hover {
     h1 {
         font-size: 20px;
     }
+  }
+  .mapa {
+    width: 220px;
+  }
+  .gnat {
+    width: 200px;
   }
