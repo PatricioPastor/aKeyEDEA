@@ -11,8 +11,8 @@ body {
     rgba(0, 0, 0, 1) 35%,
     rgba(49, 49, 49, 1) 100%
   );
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   font-family: "Prompt", sans-serif;
   text-align: center;
   display: flex;
@@ -28,11 +28,11 @@ ul {
 }
 a {
   color: white;
-  text-decoration: none;
   display: flex;
+  text-decoration: none;
   flex-wrap: wrap;
-  flex-direction: column;
   margin: 30px 100px;
+  flex-direction: column;
   transition: 0.5s;
 }
 
@@ -40,6 +40,11 @@ a:hover {
   transform: scale(1.1);
   filter: drop-shadow(0 0 36px rgba(255, 208, 98, 0.455));
 }
+
+.wp {
+  width: 200px;
+}
+
 
 @media (max-width: 768px) {
   ul {
@@ -54,8 +59,16 @@ a:hover {
   }
 }
 .mapa {
-  width: 220px;
+  width: 100px;
 }
+.eden {
+  width: 100px;
+}
+
+.wp{
+  width:110px;
+}
+
 .gnat {
-  width: 200px;
+  width: 100px;
 }
